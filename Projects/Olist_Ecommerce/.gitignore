@@ -1,0 +1,22 @@
+# Environment / secrets — NEVER commit these
+.env
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Data files (too large for git — use ADLS / Kaggle as source)
+data/*.csv
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Note-Taking software
+.obsidian/
