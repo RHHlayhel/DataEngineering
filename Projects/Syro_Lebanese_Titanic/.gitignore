@@ -1,0 +1,73 @@
+# ========================
+# Credentials & Secrets
+# ========================
+.env
+*.env
+config.json
+credentials.json
+kaggle.json
+secrets.json
+*.key
+*.pem
+*.secret
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ========================
+# Databricks
+# ========================
+.databricks/
+*.dbx
+
+# ========================
+# Delta Lake / Spark
+# ========================
+spark-warehouse/
+derby.log
+metastore_db/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDEs
+# ========================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# Text Readers
+# ========================
+.obsidian/
+

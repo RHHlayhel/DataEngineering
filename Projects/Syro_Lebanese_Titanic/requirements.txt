@@ -1,0 +1,17 @@
+# Core
+pyspark>=3.3.0
+
+# Kafka
+confluent-kafka>=2.3.0
+
+# HTTP / API
+requests>=2.28.0
+
+# Names dataset (Syro-Lebanese surname matching)
+names-dataset>=3.0.0
+
+# Visualisation
+plotly>=5.14.0
+
+# Utilities
+python-dotenv>=1.0.0  # For local development only — use Databricks secrets in production
